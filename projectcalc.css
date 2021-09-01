@@ -1,0 +1,37 @@
+body {
+    background-color: aquamarine;
+    /* justify-content: space-around; */
+    align-content: center;
+    font-size: 5em;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    /* min-height: 100vh; */
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: repeat(5, 90px);
+}
+
+button {
+    font-size: 50%;
+    border: 2px solid black;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+#number {
+    width: 310px;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, .75);
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+    padding: 10px;
+    color: blanchedalmond;
+    font-size: 50%;
+}
